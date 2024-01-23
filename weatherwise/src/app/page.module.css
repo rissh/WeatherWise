@@ -1,0 +1,130 @@
+.maindiv {
+  background: url("../assets/bg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.searchBar {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.493);
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  align-items: center;
+  margin: 10px;
+}
+
+.searchBar input {
+  width: 300px;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+
+.searchBar button {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+
+.row .sectionA {
+  background-color: rgba(0, 0, 0, 0.406);
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  margin: 10px;
+}
+
+.row .timediv {
+  background-color: rgba(0, 0, 0, 0.406);
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  font-size: 60px;
+  color: rgb(248, 255, 186);
+}
+
+.sectionB {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sectionB1 {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.weatherIcon {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.sectionA1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.temp {
+  color: rgb(255, 234, 150);
+  font-size: 70px;
+}
+
+.temp span {
+  font-size: 30px;
+  color: white;
+}
+.city {
+  font-size: 30px;
+  color: rgb(221, 221, 221);
+}
+
+.weathertype {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.head1 {
+  font-size: 15px;
+  color: white;
+}
+
+.head2 {
+  font-size: 25px;
+  color: rgb(240, 255, 141);
+}
