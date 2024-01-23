@@ -17,7 +17,7 @@ let WEATHER_API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
 //
 export default function Home() {
   //
-  const [place, setPlace] = useState();
+  const [place, setPlace] = useState("pune");
   const [placeData, setPlaceData] = useState<any>(null);
   const currentTime = new Date().toLocaleTimeString([], {
     hour: "2-digit",
@@ -101,6 +101,11 @@ export default function Home() {
           </div>
 
           <div className={styles.sectionB1}>
+            <p className={styles.head1}>Humidity</p>
+            <p className={styles.head2}>{placeData?.main.humidity}</p>
+          </div>
+
+          <div className={styles.sectionB1}>
             <p className={styles.head1}>Temperature Min</p>
             <p className={styles.head2}>
               {(placeData?.main.temp_min - 273.15).toFixed(1)} °C
@@ -115,8 +120,8 @@ export default function Home() {
           </div>
 
           <div className={styles.sectionB1}>
-            <p className={styles.head1}>Humidity</p>
-            <p className={styles.head2}>{placeData?.main.humidity}</p>
+            <p className={styles.head1}>clouds</p>
+            <p className={styles.head2}> {placeData?.clouds.all} %</p>
           </div>
 
           <div className={styles.sectionB1}>
