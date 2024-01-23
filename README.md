@@ -1,6 +1,6 @@
 # WeatherWise App
 
-WeatherWise is a weather application that provides current weather information for different locations.
+WeatherWise aims to provide users with real-time weather updates in a visually appealing and user-friendly manner. The application leverages the Next.js framework for server-rendered React applications, ensuring a fast and efficient user experience.
 
 ## Features
 
