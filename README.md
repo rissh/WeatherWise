@@ -31,5 +31,10 @@ We welcome contributions from the community! To contribute to this project, plea
 3. Make your changes and test thoroughly.
 4. Create a pull request with a clear description of your changes
  
-  
 
+# Author
+
+- [LinkedIn](https://www.linkedin.com/in/rishikesh-jagadale-331812207/)
+- [Github](https://github.com/rissh)
+
+🚀 Happy coding! 🚀
